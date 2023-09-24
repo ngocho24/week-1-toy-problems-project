@@ -1,5 +1,9 @@
 // function to calculate netpay
 function netPay (basicpay){
+
+  //Calculate Gross Salary
+  var grossPay;
+  grossPay = basicPay + totalAllowances;
   
 //paye
 function payeCalculation (basicpay){
@@ -80,12 +84,14 @@ payeCalculation(basicpay);
         function nssfCalculation (basicpay){
             return (basicpay * 0.06);
         }
-nssfCalculation (basicpay);
+nssfCalculation (basicpay)
 
-// function grossPay(basicpay){
-//     return (...);
+  //Housing Levy Calculator based on gross salary
+  var housingLevy;
+  housingLevy = 0.015 * grossSalary;
+
 }
-    
 
-   console.log (netPay = (grossPay -(nssfCalculation + nhifCalculation + payeCalculation)) );
-
+  // calling the netPay Function 
+   console.log (netPay = (grossPay -(nssfCalculation + nhifCalculation + payeCalculation + housingLevy)) );
+netPay();
