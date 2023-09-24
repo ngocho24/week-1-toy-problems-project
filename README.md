@@ -1,7 +1,8 @@
 # week-1-toy-problems-project
 
-## Introduction
-This is a brief describtion of the week 1 code challenge related to JavaScript.
+## Description
+This is week 1 code challenge related to JavaScript.
+
 
 ## Set Up instructions
 # Challenge 1: Student Grade Generator (Toy Problem)
@@ -28,6 +29,6 @@ Links to an external site.-  Links to an external site.Links to an external site
 ## Author and Licence.
 NAME : Elijah Ngocho Kamau 
 EMAIL ADDRESS : elijah.ngocho@student.moringaschool.com
-GITHUB LINK :
+GITHUB LINK : https://github.com/ngocho24/week-1-toy-problems-project.git
 
 
